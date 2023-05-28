@@ -9,7 +9,7 @@
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: bucketrepo
-      url: http://bucketrepo-jx.change.me
+      url: http://bucketrepo-jx.192.168.49.2.nip.io
     - name: hook
       url: http://0e0d-152-44-243-252.ngrok-free.app/hook
     lastDeployed: "2023-05-28T05:23:27Z"
@@ -23,7 +23,7 @@
     version: 1.1.305
   - apiVersion: v1
     appVersion: 1.8.2
-    applicationUrl: http://dashboard-jx.change.me
+    applicationUrl: http://dashboard-jx.192.168.49.2.nip.io
     description: Web UI for Jenkins X, with a clear goal - visualize the pipelines
       - and their logs.
     firstDeployed: "2023-05-28T05:23:28Z"
@@ -31,7 +31,7 @@
     icon: https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg
     ingresses:
     - name: jx-pipelines-visualizer
-      url: http://dashboard-jx.change.me
+      url: http://dashboard-jx.192.168.49.2.nip.io
     lastDeployed: "2023-05-28T05:23:28Z"
     name: jx-pipelines-visualizer
     releaseName: jx-pipelines-visualizer
@@ -80,14 +80,14 @@
     version: 0.1.67
   - apiVersion: v1
     appVersion: 2.8.1
-    applicationUrl: http://docker-registry-jx.change.me/
+    applicationUrl: http://docker-registry-jx.192.168.49.2.nip.io/
     description: A Helm chart for Docker Registry
     firstDeployed: "2023-05-28T05:23:33Z"
     home: https://hub.docker.com/_/registry/
     icon: https://helm.twun.io/docker-registry.png
     ingresses:
     - name: docker-registry
-      url: http://docker-registry-jx.change.me/
+      url: http://docker-registry-jx.192.168.49.2.nip.io/
     lastDeployed: "2023-05-28T05:23:33Z"
     maintainers:
     - email: devin@canterberry.cc
