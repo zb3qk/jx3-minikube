@@ -26,7 +26,7 @@
 	      <td>jx-pipelines-visualizer</td>
 	      <td title='Web UI for Jenkins X, with a clear goal - visualize the pipelines - and their logs.'><a href='https://github.com/jenkins-x/jx-pipelines-visualizer'> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg' width='24px' height='24px'> jx-pipelines-visualizer</a></td>
 	      <td>1.8.2</td>
-	      <td><a href='http://dashboard-jx.change.me'>view</a></td>
+	      <td><a href='http://dashboard-jx.192.168.49.2.nip.io'>view</a></td>
 	      <td><a href='https://github.com/jenkins-x/jx-pipelines-visualizer'>source</a></td>
 	    </tr>
     <tr>
@@ -54,7 +54,7 @@
 	      <td>docker-registry</td>
 	      <td title='A Helm chart for Docker Registry'><a href='https://hub.docker.com/_/registry/'> <img src='https://helm.twun.io/docker-registry.png' width='24px' height='24px'> docker-registry</a></td>
 	      <td></td>
-	      <td><a href='http://docker-registry-jx.change.me/'>view</a></td>
+	      <td><a href='http://docker-registry-jx.192.168.49.2.nip.io/'>view</a></td>
 	      <td><a href='https://github.com/docker/distribution-library-image'>source</a></td>
 	    </tr>
     <tr>

@@ -30,6 +30,7 @@ jxRequirements:
     gitName: github
     gitServer: https://github.com
     provider: minikube
+    registry: 10.102.69.86
   environments:
   - key: dev
     owner: zb3qk
@@ -37,7 +38,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: 192.168.49.2.nip.io
     kind: ingress
     namespaceSubDomain: -jx.
     tls:
